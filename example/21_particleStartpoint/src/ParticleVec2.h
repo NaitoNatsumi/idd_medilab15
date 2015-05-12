@@ -6,4 +6,12 @@ public:
     ParticleVec2();
     void update();
     void draw();
+    void addForce(ofVec2f force);
+    
+    ofVec2f velocity;
+    ofVec2f acceration;
+    ofVec2f position;
+    float mass;
+    float radius;
+    float friction;
 };

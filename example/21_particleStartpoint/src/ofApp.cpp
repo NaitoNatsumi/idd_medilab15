@@ -8,12 +8,12 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    particle.update();
+    particle.addForce(ofVec2f(0, 1.0));
 
 }
-
 //--------------------------------------------------------------
 void ofApp::draw(){
-
 }
 
 //--------------------------------------------------------------
@@ -43,7 +43,8 @@ void ofApp::mousePressed(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-
+    particle.position.set(x,y);
+    particle.velocity.set(0, 0);
 }
 
 //--------------------------------------------------------------
