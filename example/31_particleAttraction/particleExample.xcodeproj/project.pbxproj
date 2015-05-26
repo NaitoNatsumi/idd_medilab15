@@ -60,6 +60,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F7FE0011B0EFF8700010AFC /* ofApp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ofApp; path = ../../../../apps/myApps/fish/ofApp; sourceTree = "<group>"; };
 		18F769E41AFC27DE009079F4 /* ParticleVec2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleVec2.cpp; sourceTree = "<group>"; };
 		18F769E51AFC27DE009079F4 /* ParticleVec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleVec2.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
@@ -186,6 +187,7 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				0F7FE0011B0EFF8700010AFC /* ofApp */,
 				18F769E41AFC27DE009079F4 /* ParticleVec2.cpp */,
 				18F769E51AFC27DE009079F4 /* ParticleVec2.h */,
 			);

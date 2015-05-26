@@ -1,6 +1,9 @@
+//レシピ
+
 #pragma once
 
 #include "ofMain.h"
+#include "ParticleVec2.h"
 
 class ofApp : public ofBaseApp{
     
@@ -19,12 +22,18 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
-    // アニメーションする円の数を指定
-    static const int CIRCLE_NUM = 100;
-    
+    // アニメーションする四角の数を指定
+    static const int RECT_NUM = 40;
     // 位置
-    ofVec2f position[CIRCLE_NUM];
+    ofVec2f position[RECT_NUM];
     
     // 速度
-    ofVec2f velocity[CIRCLE_NUM];
+    ofVec2f velocity[RECT_NUM];
+    
+    float angle; //回転角度
+    
+    static const int num = 50000;;
+    ParticleVec2 particles[num];
+    ofVboMesh mesh;
+    bool moved;
 };

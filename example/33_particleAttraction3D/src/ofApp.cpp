@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofSetFrameRate(60);
+    ofSetFrameRate(60);//１秒間に６０
     ofBackground(0);
     mesh.setMode(OF_PRIMITIVE_POINTS);
     pressed = false;
