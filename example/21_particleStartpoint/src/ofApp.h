@@ -21,8 +21,13 @@ public:
     void gotMessage(ofMessage msg);
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     ParticleVec2 particle;
     
+=======
+    static const int NUM = 5000;
+    ParticleVec2 particle[NUM];
+>>>>>>> tado/master
 =======
     static const int NUM = 5000;
     ParticleVec2 particle[NUM];

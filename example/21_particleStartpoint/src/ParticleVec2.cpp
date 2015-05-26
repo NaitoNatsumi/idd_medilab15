@@ -2,6 +2,7 @@
 
 ParticleVec2::ParticleVec2(){
 <<<<<<< HEAD
+<<<<<<< HEAD
     position.set(ofGetWidth()/2.0/ofGetHeight()/2.0);
     velocity.set(0, 0);
     mass = 1.0;
@@ -28,15 +29,30 @@ void ParticleVec2::update(){
 }
 
 void ParticleVec2::update(){
+=======
+    position.set(ofGetWidth()/2.0, ofGetHeight()/2.0);
+    velocity.set(0, 0);
+    acceleration.set(0, 0);
+    mass = 1.0;
+    radius = 5.0;
+    friction = 0.01;
+}
+
+void ParticleVec2::update(){
+>>>>>>> tado/master
     acceleration -= velocity * friction;
     velocity += acceleration;
     position += velocity;
     acceleration.set(0, 0);
+<<<<<<< HEAD
+>>>>>>> tado/master
+=======
 >>>>>>> tado/master
 }
 
 void ParticleVec2::draw(){
     ofCircle(position.x, position.y, radius);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 }
@@ -45,6 +61,8 @@ void ParticleVec2::addForce(ofVec2f force){
     
     acceration += force / mass;
 =======
+=======
+>>>>>>> tado/master
 }
 
 void ParticleVec2::addForce(ofVec2f force){
@@ -80,5 +98,8 @@ void ParticleVec2::bounceOffWalls(){
 
 
 
+<<<<<<< HEAD
+>>>>>>> tado/master
+=======
 >>>>>>> tado/master
 

@@ -9,20 +9,32 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
 <<<<<<< HEAD
+<<<<<<< HEAD
     particle.update();
     particle.addForce(ofVec2f(0, 1.0));
 
 =======
+=======
+>>>>>>> tado/master
     for (int i = 0; i < NUM; i++) {
         particle[i].addForce(ofVec2f(0, 1.0));
         particle[i].update();
         particle[i].bounceOffWalls();
     }
+<<<<<<< HEAD
+>>>>>>> tado/master
+=======
 >>>>>>> tado/master
 }
 //--------------------------------------------------------------
 void ofApp::draw(){
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    for (int i = 0; i < NUM; i++) {
+        particle[i].draw();
+    }
+>>>>>>> tado/master
 =======
     for (int i = 0; i < NUM; i++) {
         particle[i].draw();
@@ -58,9 +70,12 @@ void ofApp::mousePressed(int x, int y, int button){
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
 <<<<<<< HEAD
+<<<<<<< HEAD
     particle.position.set(x,y);
     particle.velocity.set(0, 0);
 =======
+=======
+>>>>>>> tado/master
     for (int i = 0; i < NUM; i++) {
         particle[i].position.set(x, y);
         particle[i].velocity.set(0, 0);
@@ -70,6 +85,9 @@ void ofApp::mouseReleased(int x, int y, int button){
         float ry = length * sin(angle);
         particle[i].acceleration.set(rx, ry);
     }
+<<<<<<< HEAD
+>>>>>>> tado/master
+=======
 >>>>>>> tado/master
 }
 
