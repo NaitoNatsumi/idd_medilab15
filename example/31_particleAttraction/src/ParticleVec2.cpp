@@ -62,6 +62,7 @@ void ParticleVec2::throughOffWalls(){
     if (position.y > maxy) {
         position.y = miny;
     }
+    
 }
 
 void ParticleVec2::addAttractionForce(float x, float y, float radius, float scale){
