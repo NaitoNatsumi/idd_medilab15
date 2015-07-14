@@ -3,13 +3,13 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-	#ifdef _USE_LIVE_VIDEO
+	//#ifdef _USE_LIVE_VIDEO
         vidGrabber.setVerbose(true);
         vidGrabber.initGrabber(320,240);
-	#else
-        vidPlayer.loadMovie("fingers.mov");
-        vidPlayer.play();
-	#endif
+	//#else
+      //  vidPlayer.loadMovie("fingers.mov");
+        //vidPlayer.play();
+	//#endif
 
     colorImg.allocate(320,240);
 	grayImage.allocate(320,240);

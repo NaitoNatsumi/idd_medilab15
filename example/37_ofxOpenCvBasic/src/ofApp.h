@@ -23,11 +23,11 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
-#ifdef _USE_LIVE_VIDEO
+//#ifdef _USE_LIVE_VIDEO
     ofVideoGrabber 		vidGrabber;
-#else
+//#else
     ofVideoPlayer 		vidPlayer;
-#endif
+//#endif
     
     ofxCvColorImage			colorImg;
     
